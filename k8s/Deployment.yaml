@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ts-rest-service
-        image: rzrbld/argocd-example-service:latest
+        image: rzrbld/argocd-example-service:v1
         ports:
         - containerPort: 8080
           name: server
